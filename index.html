@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint Task 3</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <script src="/Sprint Task 3/script.js"></script>
+    <div>
+    <h2>Покупка</h2>
+    <div class="one">
+    <b>Введите сумму:</b><br>
+    <input type="number" placeholder="Введите вашу сумму" id="enter" >
+    <select id="select" onclick="check()">
+        <option value="KZT">KZT</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+    </select>
+    </div>
+    <div class="two">
+    <div >
+    <b>KZT(tenge)</b><br>
+    <input type="number" id="KZT" readonly>
+    </div>
+    <div style="margin-left: 15px;">
+    <b>USD(dollar)</b><br>
+    <input type="number" id="USD" readonly>
+    </div>
+    <div style="margin-left: 15px;">
+    <b>EUR(euro)</b><br>
+    <input type="number" id="EUR" readonly>
+    </div>
+    </div>
+    </div>
+    <div>
+        <h2>Продажа</h2>
+        <div class="one">
+        <b>Введите сумму:</b><br>
+        <input type="number" placeholder="Введите вашу сумму" id="enter1">
+        <select id="select1" onclick="check()">
+            <option value="KZT">KZT</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+        </select>
+        </div>
+        <div class="two">
+        <div >
+        <b>KZT(tenge)</b><br>
+        <input type="number" id="KZT1" readonly>
+        </div>
+        <div style="margin-left: 15px;">
+        <b>USD(dollar)</b><br>
+        <input type="number" id="USD1" readonly>
+        </div>
+        <div style="margin-left: 15px;">
+        <b>EUR(euro)</b><br>
+        <input type="number" id="EUR1" readonly>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
